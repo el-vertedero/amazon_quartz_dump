@@ -1,0 +1,5 @@
+system/system/system_ext/priv-app/com.amazon.dee.app/com.amazon.dee.app.apk.zst
+system/system/system_ext/app/AmazonWebView/AmazonWebView.apk.zst
+system/system/system_ext/priv-app/com.amazon.cloud9/com.amazon.cloud9.apk.zst
+system/system/system_ext/priv-app/com.amazon.mp3/com.amazon.mp3.apk.zst
+system/system/system_ext/priv-app/com.amazon.kindle/com.amazon.kindle.apk.zst

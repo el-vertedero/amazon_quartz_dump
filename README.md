@@ -1,0 +1,14 @@
+# quartz-user 11 RS8338.3339N 0030132734720 amz-p,release-keys
+- manufacturer: amazon
+- platform: mt8168
+- codename: quartz
+- flavor: quartz-user
+- release: 11
+- id: RS8338.3339N
+- incremental: 0030132734852
+- tags: amz-p,release-keys
+- fingerprint: Amazon/quartz/quartz:11/RS8338.3339N/0030132734720:user/amz-p,release-keys
+- is_ab: false
+- brand: Amazon
+- branch: quartz-user-11-RS8338.3339N-0030132734720-amz-p,release-keys
+- repo: amazon_quartz_dump
