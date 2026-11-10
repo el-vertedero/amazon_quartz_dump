@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    This file contains permissions to be granted by default. Default
+    permissions are granted to special platform components and to apps
+    that are approved to get default grants. The special components
+    are apps that are expected tto work out-of-the-box as they provide
+    core use cases such as default dialer, default email, etc. These
+    grants are managed by the platform. The apps that are additionally
+    approved for default grants are ones that provide carrier specific
+    functionality, ones legally required at some location, ones providing
+    alternative disclosure and opt-out UI, ones providing highlight features
+    of a dedicated device, etc. This file contains only the latter exceptions.
+    Fixed permissions cannot be controlled by the user and need a special
+    approval. Typically these are to ensure either legally mandated functions
+    or the app is considered a part of the OS.
+-->
+
+<exceptions>
+
+    <!-- This is an example of an exception:
+    <exception
+        package="foo.bar.permission"
+      <permission name="android.permission.READ_CONTACTS" fixed="true"/>
+      <permission name="android.permission.READ_CALENDAR" fixed="false"/>
+    </exception>
+    -->
+    <exception package="com.amazon.tablet.voiceassistant">
+        <!-- Listen to DSP hotword detection events -->
+        <permission name="android.permission.CAPTURE_AUDIO_HOTWORD" fixed="true"/>
+        <!-- For reading microphone data, to detect the wake-word i.e. "Alexa" -->
+        <permission name="android.permission.RECORD_AUDIO" fixed="true"/>
+        <!-- For integrating with SoundTrigger to set/get keyphrase models -->
+        <permission name="android.permission.MANAGE_VOICE_KEYPHRASES" fixed="true"/>
+        <!-- Used to enable/disable this component based on which Alexa experience is shown -->
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE" fixed="true"/>
+    </exception>
+
+</exceptions>

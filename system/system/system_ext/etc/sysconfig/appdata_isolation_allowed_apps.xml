@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2023 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<!--
+This XML file declares packages whose app data directories are accessible by other applications
+-->
+<config>
+   <app-data-isolation-whitelisted-app package="com.google.android.gms" />
+</config>

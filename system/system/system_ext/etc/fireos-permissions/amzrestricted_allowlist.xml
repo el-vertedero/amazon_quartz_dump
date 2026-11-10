@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (c) 2019 - 2024 Amazon.com, Inc. or its affiliates.  All rights reserved.
+   PROPRIETARY/CONFIDENTIAL.  USE IS SUBJECT TO LICENSE TERMS.
+-->
+<fireos-permissions>
+
+    <amzrestricted-permissions package="com.amazon.alexa.multimodal.gemini" >
+        <permission name="amazon.aosp.permission.INTERNAL_SYSTEM_WINDOW"/>
+        <permission name="amazon.aosp.permission.NETWORK_SETTINGS"/>
+    </amzrestricted-permissions>
+
+    <amzrestricted-permissions package="amazon.speech.sim" >
+        <permission name="amazon.aosp.permission.NETWORK_SETTINGS"/>
+    </amzrestricted-permissions>
+
+    <amzrestricted-permissions package="com.amazon.dee.app" >
+        <!--
+            This permission is used to allow the Alexa app to record audio
+            from the microphone on top of the lock-screen when the screen is off.
+        -->
+        <permission name="com.amazon.permission.RECORD_AUDIO_ACROSS_USER_PROFILES"/>
+    </amzrestricted-permissions>
+
+    <amzrestricted-permissions package="com.amazon.simplewifi" >
+        <permission name="amazon.aosp.permission.NETWORK_SETTINGS"/>
+    </amzrestricted-permissions>
+
+    <amzrestricted-permissions package="com.amazon.kindle.otter.oobe" >
+        <permission name="com.amazon.permission.SYSUI_FLAGS_QS_DISABLE"/>
+        <permission name="amazon.aosp.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="amazon.aosp.permission.MANAGE_DEVICE_ADMINS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.alta.h2clientservice" >
+        <permission name="amazon.aosp.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="amazon.aosp.permission.MANAGE_DEVICE_ADMINS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.ods.kindleconnect" >
+        <permission name="amazon.aosp.permission.INJECT_EVENTS"/>
+        <permission name="amazon.aosp.permission.CAPTURE_VIDEO_OUTPUT"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.kor.demo" >
+        <permission name="amazon.aosp.permission.MANAGE_DEVICE_ADMINS" />
+        <permission name="amazon.aosp.permission.CLEAR_APP_USER_DATA"/>
+        <permission name="amazon.aosp.permission.REMOVE_TASKS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.logan" >
+        <permission name="amazon.aosp.permission.INJECT_EVENTS"/>
+        <permission name="amazon.aosp.permission.INTERNAL_SYSTEM_WINDOW"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.amazonlockscreentest">
+        <permission name="com.amazon.permission.RESET_PASSWORD"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.parentalcontrols" >
+        <permission name="amazon.aosp.permission.MANAGE_PROFILE_AND_DEVICE_OWNERS"/>
+        <permission name="amazon.aosp.permission.MANAGE_DEVICE_ADMINS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.kindle.starsight" >
+        <permission name="amazon.aosp.permission.NETWORK_SETTINGS"/>
+        <!-- Required for setting and reading cookie consent status -->
+        <permission name="com.amazon.permission.SET_COOKIE_CONSENT"/>
+        <permission name="com.amazon.permission.GET_COOKIE_CONSENT"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.tahoe" >
+         <permission name="com.amazon.permission.CONTROL_PIP_WINDOW"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.kindle.rdmdeviceadmin" >
+        <permission name="amazon.aosp.permission.MANAGE_DEVICE_ADMINS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.redstone">
+        <permission name="com.amazon.android.stylus.USE_TAP_TO_WRITE"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="jp.co.omronsoft.iwnnime.mlaz">
+        <permission name="com.amazon.android.stylus.USE_TAP_TO_WRITE"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.watson">
+        <permission name="com.amazon.android.stylus.COPY_HWR_ASSETS"/>
+    </amzrestricted-permissions>
+    <amzrestricted-permissions package="com.amazon.charles">
+        <permission name="amazon.aosp.permission.INJECT_EVENTS"/>
+    </amzrestricted-permissions>
+</fireos-permissions>

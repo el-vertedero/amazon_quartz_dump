@@ -1,0 +1,8 @@
+{
+  "object_type_name": "nemort_scorer_config",
+  "object_type_version": 1,
+  "model_filepath": "ulpww-cnn_125k.deDE_frFR.alexa.aeinf.f8.bin",
+  "input_component": "feat-in-00",
+  "output_component": "wakeword-out-00",
+  "recurrent_state_initialization": false
+}

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+
+<!--
+    This file contains permissions to be granted by default for Alexa app.
+-->
+
+<exceptions>
+    <exception package="com.amazon.dee.app">
+      <permission name="android.permission.RECORD_AUDIO" fixed="true" />
+      <permission name="android.permission.ACCESS_FINE_LOCATION" fixed="true" />
+      <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" fixed="true" />
+      <permission name="android.permission.READ_CONTACTS" fixed="true" />
+    </exception>
+</exceptions>
